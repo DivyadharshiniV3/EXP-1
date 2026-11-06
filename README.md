@@ -1,76 +1,131 @@
-# EXP-1
-EXPT NO: 1	VERIFICATION OF KIRCHHOFF’S LAWS
-AIM
-a.   To verify Kirchhoff’s Voltage Law (KVL) for the given circuit. 
-b.   To verify Kirchhoff’s Current Law (KCL) for the given circuits.
+# ELECTRICAL CIRCUITS LABORATORY
 
-APPARATUS REQUIRED:
-S.No.	Components	Range	Quantity
-1	Resistor	1kΩ	3
-2	Voltmeter (DC)	0-30V	3
-3	Ammeter (DC)	(0-200)mA	3
-4	Bread Board		1
-5	Regulated Power Supply	(0-30)V	1
-6	Connecting wires		As required
+## EXPERIMENT NO. 1 – VERIFICATION OF KIRCHHOFF'S LAWS
 
-THEORY:
-KVL: Kirchhoff's voltage law states that the sum of the voltage differences around any closed loop in a circuit must be zero. A loop in a circuit is any path that ends at the same point at which it starts.
-KCL:
-Kirchhoff's Current Law (KCL) Kirchhoff's Current Law states that the algebraic sum of the currents entering and leaving a node is equal to zero. By convention, currents entering the node are positive, and those leaving a node are negative
+| **Name:** | | **Reg. No.:** | |
+|---|---|---|---|
+| **Date:** | | **Batch / Section:** | |
 
+---
 
-PROCEDURE:
-a.   KVL:
-1.   Connect as per the circuit diagram.
-2.   Check if the RPS voltage is set to zero voltage.
-3.   Check all the meters for null position.
-4.   Switch on the RPS.
-5.   Set the input voltage to a value between 0V to 30V.
-6.   Record the voltage values shown in the voltmeter connected across each resistor.
-7.   Take readings for different values of input voltage and tabulate them.
+## AIM
 
+a. To verify Kirchhoff's Voltage Law (KVL) for the given circuit.
 
-b.  KCL:
-1.   Connect as per the circuit diagram.
-2.   Check if the RPS voltage is set to zero voltage.
-3.   Check all the meters for null position.
-4.   Switch on the RPS.
-5.   Set the input voltage to a value between 0V to 30V.
-6.   Record the voltage values shown in the ammeter connected to each resistor.
-7.   Take readings for different values of input voltage and tabulate them. 
-CIRCUIT DIAGRAM:
+b. To verify Kirchhoff's Current Law (KCL) for the given circuit.
 
-CIRCUIT DIAGRAM:
+## APPARATUS REQUIRED
 
+| S. No. | Component | Range / Rating | Quantity |
+|:---:|:---:|:---:|:---:|
+| 1 | Resistor | 1 kΩ | 3 |
+| 2 | DC Voltmeter | 0–30 V | 3 |
+| 3 | DC Ammeter | 0–0.2 A | 3 |
+| 4 | Breadboard | — | 1 |
+| 5 | Regulated Power Supply (RPS) | 0–30 V | 1 |
+| 6 | Connecting wires | As required | As required |
+| 7 | Simulation software | Proteus Design Suite | 1 |
 
-a.   KVL:
- 
+## THEORY
 
+**Kirchhoff's Voltage Law (KVL):** The algebraic sum of all voltage rises and voltage drops around any closed loop in an electrical circuit is zero.
 
-b.  KCL:
- 
+**Kirchhoff's Current Law (KCL):** The algebraic sum of currents at any node is zero. In other words, the total current entering a node is equal to the total current leaving the node.
 
-Calculation:
+## PROCEDURE
 
-a.   KVL:
- 
+### A. Verification of KVL
 
+1. Connect the circuit as shown in the KVL circuit diagram.
+2. Ensure that the RPS output is set to zero volts before switching it on.
+3. Check that all meters are correctly connected and set to their zero positions.
+4. Switch on the RPS and gradually set the required input voltage within the specified range.
+5. Measure and record the voltage across each resistor using the voltmeters.
+6. Repeat the measurements for different input-voltage values and tabulate the readings.
 
-b.  KCL:
+### B. Verification of KCL
 
+7. Connect the circuit as shown in the KCL circuit diagram.
+8. Ensure that the RPS output is set to zero volts before switching it on.
+9. Check that all meters are correctly connected and set to their zero positions.
+10. Switch on the RPS and gradually set the required input voltage within the specified range.
+11. Measure and record the current in each branch using the ammeters.
+12. Repeat the measurements for different input-voltage values and tabulate the readings.
 
+## CIRCUIT DIAGRAMS
 
+### A. KVL circuit diagram
 
-Tabulation:
+*[ Insert the KVL circuit diagram here ]*
 
-a.   KVL:
- 
+**Figure 1:** KVL verification circuit
 
+### B. KCL circuit diagram
 
-b.  KCL:
+*[ Insert the KCL circuit diagram here ]*
 
+**Figure 2:** KCL verification circuit
 
+## SIMULATION USING PROTEUS
 
-RESULT:
+Build the KVL and KCL circuits in Proteus using the same resistor values and supply voltage as the hardware circuit. Place DC voltmeters and DC ammeters from the Virtual Instruments mode, run the simulation, and paste a screenshot showing the meter readings for each circuit.
 
-Thus, for the given circuit, Kirchhoff’s Laws, (a) KVL and (b) KCL are proved.
+### A. KVL simulation
+
+*[ Paste the Proteus KVL simulation screenshot here ]*
+
+**Figure 3:** Proteus simulation of KVL circuit
+
+### B. KCL simulation
+
+*[ Paste the Proteus KCL simulation screenshot here ]*
+
+**Figure 4:** Proteus simulation of KCL circuit
+
+## OBSERVATION AND TABULATION
+
+### A. KVL – Voltage measurements
+
+| S. No. | Supply voltage Vs (V) | VR1 (V) | VR2 (V) | VR3 (V) | VR1 + VR2 + VR3 (V) |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | | | | | |
+| 2 | | | | | |
+| 3 | | | | | |
+| 4 | | | | | |
+| 5 | | | | | |
+
+### B. KCL – Current measurements
+
+| S. No. | Supply voltage Vs (V) | Total current It (A) | Branch current I1 (A) | Branch current I2 (A) | Branch current I3 (A) | I1 + I2 + I3 (A) |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | | | | | | |
+| 2 | | | | | | |
+| 3 | | | | | | |
+| 4 | | | | | | |
+| 5 | | | | | | |
+
+## CALCULATIONS
+
+### A. KVL
+
+According to KVL, **Vs = VR1 + VR2 + VR3**.
+
+Substitute the observed values and verify that the algebraic sum of the voltage drops is approximately equal to the supply voltage.
+
+*[ Paste the KVL calculation screenshot here ]*
+
+**Figure 5:** KVL calculation
+
+### B. KCL
+
+According to KCL, **It = I1 + I2 + I3**.
+
+Substitute the observed values and verify that the total current entering the node is approximately equal to the sum of the branch currents.
+
+*[ Paste the KCL calculation screenshot here ]*
+
+**Figure 6:** KCL calculation
+
+## RESULT
+
+Thus, Kirchhoff's Voltage Law (KVL) and Kirchhoff's Current Law (KCL) were verified experimentally and through Proteus simulation for the given circuits.
